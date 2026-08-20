@@ -17,10 +17,11 @@ export const site = {
   location: "Delhi, India",
 
   // Primary address — used for the big CTAs
-  email: "hello@akrevia.in",
+  email: "admin@akrevia.in",
 
+  // All three are aliases delivering to prateek@akrevia.in.
   emails: [
-    { label: "General", address: "hello@akrevia.in" },
+    { label: "General", address: "admin@akrevia.in" },
     { label: "Prateek", address: "prateek@akrevia.in" },
     { label: "Gautam", address: "gautam@akrevia.in" },
   ],
