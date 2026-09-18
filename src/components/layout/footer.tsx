@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Container } from "./container";
 
 const LINKS = [
@@ -16,10 +17,24 @@ export function Footer() {
       <Container>
         <div className="flex flex-col gap-12 md:flex-row md:justify-between">
           <div>
-            <p className="font-mono text-sm font-medium tracking-[0.14em]">
-              AKREVIA
-            </p>
-            <p className="mt-3 max-w-xs text-sm text-muted-foreground">
+            <div className="flex items-center">
+              <span className="sr-only">AKREVIA</span>
+              <Image
+                src="/assets/logo-light.svg"
+                alt="Akrevia"
+                width={148}
+                height={34}
+                className="dark:hidden object-contain"
+              />
+              <Image
+                src="/assets/logo-dark.png"
+                alt="Akrevia"
+                width={148}
+                height={34}
+                className="hidden dark:block object-contain"
+              />
+            </div>
+            <p className="mt-4 max-w-xs text-sm text-muted-foreground">
               Software engineering studio.
               <br />
               Delhi, India
