@@ -35,7 +35,7 @@ export function OfflineSequence() {
   const progress = reduceMotion ? 1 : Math.min(active, STEPS.length - 1) / (STEPS.length - 1);
 
   return (
-    <div className="grid gap-12 md:grid-cols-[1fr_320px]">
+    <div className="grid gap-12 md:grid-cols-[1fr_400px]">
       <div className="relative pl-8">
         <div className="absolute top-1 left-[3px] bottom-1 w-px bg-border" aria-hidden />
         <motion.div
@@ -80,11 +80,11 @@ export function OfflineSequence() {
         </ol>
       </div>
 
-      <div className="h-fit border border-border bg-card font-mono text-xs">
-        <div className="border-b border-border px-4 py-2.5 uppercase tracking-[0.14em] text-muted-foreground">
+      <div className="h-[280px] w-full border border-border bg-card font-mono text-sm">
+        <div className="border-b border-border px-4 py-2.5 uppercase tracking-[0.14em] text-muted-foreground text-xs">
           sync_log
         </div>
-        <div className="space-y-1.5 px-4 py-4">
+        <div className="space-y-2 px-4 py-4">
           {STEPS.slice(0, reached + 1).map((step, i) => (
             <p key={step.label} className="flex items-start gap-2 text-muted-foreground">
               <span className="text-foreground/30">
@@ -97,7 +97,7 @@ export function OfflineSequence() {
           ))}
           {reached < STEPS.length - 1 && (
             <span
-              className="inline-block h-3 w-1.5 translate-y-0.5 animate-pulse bg-accent"
+              className="inline-block h-4 w-2 translate-y-0.5 animate-pulse bg-accent"
               aria-hidden
             />
           )}

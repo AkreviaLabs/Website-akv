@@ -41,10 +41,10 @@ export function Team() {
 
         <Reveal delay={0.1}>
           <h2 className="mt-6 max-w-lg text-balance text-3xl font-medium tracking-tight md:text-4xl">
-            Led and managed by us.
+            Built by the founders.
           </h2>
           <p className="mt-6 max-w-xl text-balance text-base text-muted-foreground md:text-lg">
-            Akrevia is directed by two engineers who scope, build, and ship
+            Akrevia is two engineers who scope, build, and ship
             the work themselves &mdash; no account managers, no handoffs to
             someone else.
           </p>

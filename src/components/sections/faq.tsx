@@ -7,7 +7,7 @@ const FAQS = [
   {
     question: "How is Akrevia different from a typical dev agency?",
     answer:
-      "The team is led and managed by two engineers who write the code themselves. No account managers, no outsourced work, no bench of developers you'll never meet.",
+      "The team is led and managed by two engineers who write the code themselves. No account managers, no outsourced work, no outsourced junior developers you'll never meet.",
   },
   {
     question: "What does a typical engagement look like?",
@@ -22,7 +22,7 @@ const FAQS = [
   {
     question: "Can you build offline-first software outside of CRMs?",
     answer:
-      "Offline-first is an architecture, not a product category. We apply it to inventory systems, field data collection, logistics tools — anything that has to keep working without a signal.",
+      "Yes. We can make almost any tool work offline — inventory systems, field data collection, order capture, and more — not just CRMs. If your team works where the network is unreliable, we can build for it.",
   },
   {
     question: "Where are you based, and do you work with remote clients?",
@@ -32,7 +32,12 @@ const FAQS = [
   {
     question: "How do you price projects?",
     answer:
-      "Project-based, scoped after we understand the work. We don't do open-ended hourly billing.",
+      "We price by the project, not by the hour. After a first conversation, we give you a clear scope and a fixed cost up front, so there are no surprise bills.",
+  },
+  {
+    question: "What happens after the software is built?",
+    answer:
+      "We don't disappear at launch. We offer ongoing maintenance so your system stays secure, updated, and keeps evolving as your business changes.",
   },
 ];
 

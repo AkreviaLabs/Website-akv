@@ -10,7 +10,7 @@ export function OfflineFirst() {
     <Section dark grid>
       <Container className="relative">
         <Reveal>
-          <Eyebrow>Our wedge</Eyebrow>
+          <Eyebrow>Our specialty</Eyebrow>
         </Reveal>
 
         <Reveal delay={0.1}>
@@ -30,7 +30,7 @@ export function OfflineFirst() {
           <p className="mt-6 max-w-xl text-balance text-base text-muted-foreground md:text-lg">
             Field teams don&rsquo;t get to choose their network conditions. We
             build CRMs and business tools that keep working offline, then
-            reconcile cleanly the moment connectivity returns.
+            sync automatically the moment connectivity returns.
           </p>
         </Reveal>
 

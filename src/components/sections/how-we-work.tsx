@@ -39,10 +39,8 @@ export function HowWeWork() {
             Engineered to move fast, without cutting corners.
           </h2>
           <p className="mt-6 max-w-xl text-balance text-base text-muted-foreground md:text-lg">
-            No handoffs, no waiting on approvals, no scope drifting between
-            departments. Work moves in short, direct cycles &mdash;
-            understood, engineered, shipped, improved &mdash; so pace and
-            precision compound instead of trading off.
+            No handoffs, no waiting on approvals, no miscommunication between teams. Work moves in short, direct cycles &mdash;
+            understood, engineered, shipped, improved &mdash; so we build and ship faster without cutting corners on quality.
           </p>
         </Reveal>
 

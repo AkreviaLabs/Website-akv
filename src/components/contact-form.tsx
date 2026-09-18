@@ -111,7 +111,7 @@ export function ContactForm() {
           disabled={status === "loading" || status === "success"}
           className="group inline-flex items-center gap-2 bg-primary px-6 py-3.5 text-sm font-medium text-primary-foreground transition-all duration-200 hover:-translate-y-0.5 hover:bg-foreground/90 disabled:pointer-events-none disabled:opacity-50 w-fit"
         >
-          {status === "loading" ? "Sending..." : status === "success" ? "Sent!" : "Send message"}
+          {status === "loading" ? "Sending..." : status === "success" ? "Sent!" : "Let's talk"}
           {status !== "success" && (
             <ArrowRight
               size={15}
@@ -120,6 +120,15 @@ export function ContactForm() {
             />
           )}
         </button>
+
+        <a
+          href="https://calendly.com/kumar-gautam"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 border border-border bg-transparent px-6 py-3.5 text-sm font-medium text-foreground transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent/10 hover:border-accent hover:text-accent w-fit"
+        >
+          Book a Call
+        </a>
 
         {status === "success" && (
           <p className="text-sm text-accent">
