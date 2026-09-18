@@ -20,7 +20,7 @@ export const PROJECTS = [
     name: "Internal Ops Dashboard",
     category: "Custom Software",
     description:
-      "A dispatch and scheduling dashboard that replaced a spreadsheet-based workflow shared across three regional teams.",
+      "A dispatch and scheduling dashboard that consolidates a spreadsheet-based workflow into a single interface for operations teams.",
     stack: ["Next.js", "TypeScript", "PostgreSQL"],
   },
 ];

@@ -25,7 +25,7 @@ const CAPABILITIES = [
       "APIs",
       "Integrations",
       "Infrastructure",
-      "Performance-critical systems",
+      "High-performance systems built to stay reliable under real load.",
     ],
   },
   {

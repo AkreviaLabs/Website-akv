@@ -25,8 +25,8 @@ export async function sendContactEmail(formData: FormData) {
 
   try {
     const { error } = await resend.emails.send({
-      from: "Akrevia Contact <hello@akrevia.in>", // Note: Ensure domain is verified in Resend
-      to: ["admin@akrevia.in"],
+      from: "Akrevia Website <onboarding@resend.dev>", // Resend's testing domain
+      to: ["vishwagautam57@gmail.com"],
       replyTo: email,
       subject: `Project inquiry from ${name}${company ? ` at ${company}` : ""}`,
       text: `Name: ${name}\nEmail: ${email}\nCompany: ${company || "N/A"}\n\nMessage:\n${message}`,

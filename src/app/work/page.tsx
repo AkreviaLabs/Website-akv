@@ -30,8 +30,7 @@ export default function WorkPage() {
                 What we build.
               </h1>
               <p className="mt-6 max-w-md text-balance text-base text-muted-foreground md:text-lg">
-                Examples of the kinds of systems we build &mdash; for field
-                operations, retail, and logistics.
+                Systems we&apos;ve built and the capabilities behind them &mdash; for field operations, retail, and logistics.
               </p>
             </Reveal>
           </Container>

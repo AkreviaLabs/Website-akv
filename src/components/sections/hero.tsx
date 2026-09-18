@@ -87,7 +87,7 @@ export function Hero() {
               href="/contact"
               className="group pointer-events-auto inline-flex items-center gap-2 bg-primary px-5 py-3 text-sm font-medium text-primary-foreground transition-all duration-200 hover:-translate-y-0.5 hover:bg-foreground/90"
             >
-              Start a conversation
+              Let&rsquo;s talk
               <ArrowRight
                 size={15}
                 className="transition-transform duration-200 group-hover:translate-x-1"
