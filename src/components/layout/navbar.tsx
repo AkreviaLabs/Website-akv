@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
@@ -48,10 +49,26 @@ export function Navbar() {
         <nav className="flex h-16 items-center justify-between md:h-20">
           <Link
             href="/"
-            className="font-mono text-lg font-medium tracking-[0.14em]"
+            className="flex items-center"
             onClick={() => setOpen(false)}
           >
-            AKREVIA
+            <span className="sr-only">AKREVIA</span>
+            <Image
+              src="/assets/logo-light.svg"
+              alt="Akrevia"
+              width={148}
+              height={34}
+              className="dark:hidden object-contain"
+              priority
+            />
+            <Image
+              src="/assets/logo-dark.png"
+              alt="Akrevia"
+              width={148}
+              height={34}
+              className="hidden dark:block object-contain"
+              priority
+            />
           </Link>
 
           <ul className="hidden items-center gap-8 md:flex">
