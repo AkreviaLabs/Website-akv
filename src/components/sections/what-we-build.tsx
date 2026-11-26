@@ -49,7 +49,7 @@ export function WhatWeBuild() {
 
         <Reveal delay={0.1}>
           <h2 className="mt-6 max-w-lg text-balance text-3xl font-medium tracking-tight md:text-4xl">
-            Four categories. One team building all of them.
+            Four categories. Our experienced team builds all of them.
           </h2>
         </Reveal>
 

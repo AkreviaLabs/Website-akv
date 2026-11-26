@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: "%s — Akrevia",
   },
   description:
-    "Akrevia is a software engineering studio in Delhi led by two engineers, building reliable web, mobile, and backend systems — including offline-first tools for field teams working with unreliable connectivity.",
+    "Akrevia is a software engineering studio in Delhi building reliable web, mobile, and backend systems — including offline-first tools for field teams working with unreliable connectivity.",
   keywords: [
     "Akrevia",
     "software engineering studio",
