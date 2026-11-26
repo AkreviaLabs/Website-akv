@@ -7,7 +7,7 @@ const FAQS = [
   {
     question: "How is Akrevia different from a typical dev agency?",
     answer:
-      "The team is led and managed by two engineers who write the code themselves. No account managers, no outsourced work, no outsourced junior developers you'll never meet.",
+      "You work directly with the engineers who write the code. No account managers, no outsourced work, no layers of hand-offs between your idea and what gets shipped.",
   },
   {
     question: "What does a typical engagement look like?",

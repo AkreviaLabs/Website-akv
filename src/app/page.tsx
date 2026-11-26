@@ -5,7 +5,6 @@ import { EngineeringStatement } from "@/components/sections/engineering-statemen
 import { WhatWeBuild } from "@/components/sections/what-we-build";
 import { OfflineFirst } from "@/components/sections/offline-first";
 import { HowWeWork } from "@/components/sections/how-we-work";
-import { Team } from "@/components/sections/team";
 import { Technology } from "@/components/sections/technology";
 import { Faq } from "@/components/sections/faq";
 
@@ -19,7 +18,6 @@ export default function Home() {
         <WhatWeBuild />
         <OfflineFirst />
         <HowWeWork />
-        <Team />
         <Technology />
         <Faq />
       </main>

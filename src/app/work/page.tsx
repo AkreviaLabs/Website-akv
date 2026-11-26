@@ -10,7 +10,7 @@ import { PROJECTS } from "@/data/projects";
 export const metadata: Metadata = {
   title: "Work",
   description:
-    "Selected projects from Akrevia — custom software, offline-first CRMs, and backend systems built for businesses that need software to work in the real world.",
+    "Selected projects from Akrevia — e-commerce platforms, CRMs, AI systems, animated websites, and backend systems built for businesses that need software to work in the real world.",
 };
 
 
@@ -30,7 +30,7 @@ export default function WorkPage() {
                 What we build.
               </h1>
               <p className="mt-6 max-w-md text-balance text-base text-muted-foreground md:text-lg">
-                Systems we&apos;ve built and the capabilities behind them &mdash; for field operations, retail, and logistics.
+                Systems we&apos;ve built and the capabilities behind them &mdash; for e-commerce, group companies, interior design, field operations, retail, and logistics.
               </p>
             </Reveal>
           </Container>

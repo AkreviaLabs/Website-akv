@@ -11,18 +11,16 @@ import { ContactForm } from "@/components/contact-form";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Tell Akrevia what you're trying to build. We're a software engineering studio in Delhi, India, led by two engineers.",
+    "Tell Akrevia what you're trying to build. We're a software engineering studio in Delhi, India.",
 };
 
 const EMAILS = [
   { label: "General", email: "admin@akrevia.in" },
-  { label: "Prateek", email: "prateek@akrevia.in" },
-  { label: "Gautam", email: "gautam@akrevia.in" },
 ];
 
 const PHONES = [
-  { label: "Prateek", number: "+91 93184 21533" },
-  { label: "Gautam", number: "+91 87890 34782" },
+  { label: "Sales", number: "+91 70429 54831" },
+  { label: "Support", number: "+91 93184 21533" },
 ];
 
 export default function ContactPage() {
